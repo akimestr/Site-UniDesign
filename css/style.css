@@ -1,0 +1,143 @@
+body{
+  margin: 0;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  margin: 10%;
+  width: 80%;
+}
+
+.item{
+  width: 25%;
+  align-content: center;
+  text-align: center;
+}
+
+/* NAV BAR*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* NAV BAR SUPERIOR*/
+.navsup{
+  background-color: #414141;
+  height: 30px;
+}
+
+/* NAV BAR INFERIOR*/
+.navinf{
+  background-color: #056571;
+  height: 80px;
+}
+
+/* MENU SCROLL */
+.menu_mluv_retratil {
+  width: 100%; 
+  height: 65px;
+  display: block;
+  background:  #056571;
+  position: fixed;
+  top: -65px;
+  z-index: 100;
+  -webkit-transition:All 0.5s ease;
+  -moz-transition:All 0.5s ease;
+  -o-transition:All 0.5s ease;}
+
+.menu_mluv_retratil.mostrar {
+  top: 0; 
+  position: fixed;}
+
+.menu_mluv_retratil nav {
+  margin: 0 20px; 
+  padding: 0; 
+  list-style: none;
+  float: left}
+
+.menu_mluv_retratil nav a {
+  line-height: 65px; 
+  color: white; 
+  text-transform: uppercase;
+  padding: 0 10px; 
+  text-decoration: none; }
+
+.menu_mluv_retratil nav a:hover {
+    color: yellow;}
+
+.menu_mluv_retratil nav a img{
+    margin-top:10px;
+    float: left;}
+
+/* RODAPÉ FIXO */
+footer{
+  width: 100%;
+  height: 30px;
+  background-color: #414141;
+  bottom: 0;
+  position: fixed;
+}
+
+/* LINKS FIXOS */
+
+#fixo{
+  position:fixed;
+  top:50%;
+  right: 0px;
+  border-radius: 50%;
+  background-color: #ff645c;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #f44336;
+  color: white;
+}
