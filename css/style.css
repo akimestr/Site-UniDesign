@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  font-family: Helvética, sans-serif;
 }
 
 .row{
@@ -17,6 +18,11 @@ body{
   width: 25%;
   align-content: center;
   text-align: center;
+}
+
+#divsobre{
+  width: 60%;
+  text-align: justify;
 }
 
 /* NAV BAR*/
