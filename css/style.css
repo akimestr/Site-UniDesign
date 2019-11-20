@@ -53,13 +53,13 @@ li a:hover {
 /* NAV BAR SUPERIOR*/
 .navsup{
   background-color: #414141;
-  height: 30px;
+  height: 10%;
 }
 
 /* NAV BAR INFERIOR*/
 .navinf{
   background-color: #056571;
-  height: 80px;
+  height: 10%;
 }
 
 /* MENU SCROLL */
@@ -96,7 +96,7 @@ li a:hover {
     color: yellow;}
 
 .menu_mluv_retratil nav a img{
-    margin-top:10px;
+    margin-top:5px;
     float: left;}
 
 /* RODAPÉ FIXO */
@@ -146,4 +146,15 @@ button{
 button:hover {
   background-color: #f44336;
   color: white;
+}
+
+/* FOOTER (INFORMAÇÕES)*/
+#info{
+  background-color: #414141;
+}
+iframe{
+  float: right;
+}
+table{
+  float: left;
 }
