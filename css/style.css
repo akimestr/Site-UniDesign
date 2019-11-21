@@ -9,8 +9,15 @@ body{
   justify-content: center;
 }
 
+h1{
+  font-size: 30px;
+}
+
 .container{
-  margin: 10%;
+  margin-left: 12%;
+  margin-right: 8%;
+  margin-top:100px;
+  margin-bottom:100px;
   width: 80%;
 }
 
@@ -31,7 +38,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  
+
 }
 
 li {
@@ -42,12 +49,13 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 3% 3%;
   text-decoration: none;
+  font-size: 20px;
 }
 
 li a:hover {
-  background-color: #111;
+  color: #ccdfcb;
 }
 
 /* NAV BAR SUPERIOR*/
@@ -62,6 +70,14 @@ li a:hover {
   height: 10%;
 }
 
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
 /* MENU SCROLL */
 .menu_mluv_retratil {
   width: 100%; 
@@ -87,17 +103,20 @@ li a:hover {
 
 .menu_mluv_retratil nav a {
   line-height: 65px; 
-  color: white; 
-  text-transform: uppercase;
+  color: white;
   padding: 0 10px; 
   text-decoration: none; }
 
 .menu_mluv_retratil nav a:hover {
-    color: yellow;}
+    color: #ccdfcb;}
 
 .menu_mluv_retratil nav a img{
     margin-top:5px;
     float: left;}
+
+#informacoes{
+  background-color: yellow;
+}
 
 /* RODAPÉ FIXO */
 footer{
@@ -148,13 +167,64 @@ button:hover {
   color: white;
 }
 
+#bolsas{
+  background-color: #ccdfcb; 
+  padding-top: 20px;
+  width: 100%;
+  height: 530px;
+  padding-bottom: 25px;
+  }
+
+.itembolsa{
+  margin:40px;
+  text-align: justify;
+}
+
 /* FOOTER (INFORMAÇÕES)*/
 #info{
-  background-color: #414141;
-}
+  background-color: #414141; 
+  padding-top: 30px;
+  width: 100%;
+  height: 350px;
+  color:white;
+  }
+
 iframe{
   float: right;
+  padding-right: 110px;
 }
+
 table{
   float: left;
+  padding-left: 100px;
 }
+
+td{
+  width: 250px;
+}
+
+article{
+  text-align: justify;
+}
+
+/* PÁGINA DE DISCENTES */
+#p1{
+  background-color: #ccdfcb; 
+  padding-top: 20px;
+  width: 100%;
+  height: 530px;
+  padding-bottom: 25px;
+  }
+
+.divp {
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: justify;
+}
+
+#p2{ 
+  padding-top: 20px;
+  width: 100%;
+  height: 530px;
+  padding-bottom: 25px;
+  }
